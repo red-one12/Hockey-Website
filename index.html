@@ -1,27 +1,104 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hockey</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey</title>
 
-  <!-- cdn of daisy ui and tailwind -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- cdn of daisy ui and tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- manrope font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
 
 
-  <style>
-    .manrope{
-  font-family: "Manrope", sans-serif;
-  }
-  </style>
-</head>
-<body class="manrope">
-  <h1>Hello I am Radoan</h1>
-</body>
+
+    <!-- remix icon cdn -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
+
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+
+      .primary-color-text{
+        color: #FF4240;
+      }
+
+      .primary-color-bg{
+        background-color: #FF4240;
+      }
+    </style>
+  </head>
+  <body class="manrope">
+    <header>
+      <nav class="max-w-5xl mx-auto pt-7">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold space-y-2"
+              >
+                <li><a class="primary-color-text" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-3xl font-bold">Hockey<span class="primary-color-text -ml-2 -mr-2">'</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-bold">
+              <li><a class="primary-color-text" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i class="ri-search-2-line mr-5 text-xl text-gray-500 hidden md:block lg:block"></i>
+            <a class="btn primary-color-bg text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
 </html>
